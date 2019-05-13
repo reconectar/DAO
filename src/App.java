@@ -5,7 +5,7 @@ public class App{
 		try {
 			new Server();		
 		}catch(Exception e) {
-			System.out.println("Se fudeu...");
+			System.out.println("Erro...");
 			e.printStackTrace();
 		}finally{
 			System.out.println("Saindo...");
